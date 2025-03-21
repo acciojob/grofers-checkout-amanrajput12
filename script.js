@@ -9,9 +9,10 @@ const getSum = () => {
 	for(let i=0;i<data.length;i++){
 	sum=sum+Number(data[i].innerText)
 	}
-	let value = document.createElement("span");
+	let value = document.createElement("tr");
+	
 	value.innerText=sum
-  alert(value.innerText)
+  // alert(value.innerText)
 	document.body.appendChild(value)
 };
 
