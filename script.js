@@ -22,7 +22,7 @@ getSumBtn.addEventListener("click", () => {
 
     // Create new row
     let totalRow = document.createElement("tr");
-    totalRow.id = "totalRow";
+    totalRow.id = "ans";
 
     // Create a single cell spanning both columns
     let totalCell = document.createElement("td");
